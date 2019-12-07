@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Inlämning2</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <h1>Fanny's Budget</h1>
+    <div class="container">
+      <section class="input-1">
+        <h2>Inkomster</h2>
+        <form>
+          <input type="number" placeholder="Summa" class="input1__value" />
+          <button class="input1__btn">Add</button>
+        </form>
+      </section>
+
+      <section class="income">
+        <h4>Senaste inkomsten</h4>
+        <div class="income__value"></div>
+        <h4>Total inkomst:</h4>
+        <div class="income_tot"></div>
+      </section>
+
+      <section class="input-2">
+        <h2>Utgifter</h2>
+        <form>
+          <input type="number" placeholder="Summa" class="input2__value" />
+          <button class="input2__btn">Add</button>
+        </form>
+      </section>
+
+      <section class="costs">
+        <h4>Senaste utgiften</h4>
+        <div class="costs__value"></div>
+        <h4>Total utgift:</h4>
+        <div class="costs_tot"></div>
+      </section>
+    </div>
+
+    <section class="result">
+      <h2>Resultat</h2>
+      <div class="result__div">
+        <div class="result_total"></div>
+        <div>kr</div>
+      </div>
+    </section>
+  </body>
+</html>

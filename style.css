@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #6ba7adcb;
+    color: white;
+    list-style: none;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    text-shadow: 0px 1px 1px black;
+}
+h2 {
+    text-shadow: 0px 1px 1px black;
+}
+
+.input-1, .input-2 {
+    margin: 1rem;
+    text-align: center;
+}
+.input1__value, .input2__value {
+    padding: 10px;
+    border: 2px solid #9acccf;
+    margin: 1rem;
+}
+.input1__btn, .input2__btn {
+    width: 4rem;
+    height: 2rem;
+    background-color: #9acccf;
+    border: none;
+    margin: .2rem 0 0 1rem;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 300px;
+}
+.income {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border: 5px solid #9acccf;
+    box-shadow: 0px 1px 3px black;
+    margin: 2rem;
+    height: 30vh;
+    padding: 1rem;
+    
+}
+.income__value, .costs__value {
+    padding: 0 0 3rem 0;
+    font-size: 20px;
+}
+.costs {
+    border: 5px solid #9acccf;
+    box-shadow: 0px 1px 3px black;
+    margin: 2rem;
+    height: 30vh;
+    padding: 1rem;
+}
+.income_tot, .costs_tot {
+    padding: 0 0 3rem 0;
+    font-size: 20px;
+}
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #9acccf;
+    box-shadow: 0px 1px 3px black;
+    margin: 2rem;
+    height: 20vh;
+    padding: 1rem;
+
+}
+.result__div {
+    display: flex;
+    margin: 3rem 0 0 0;
+    font-size: 20px;
+}
