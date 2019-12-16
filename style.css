@@ -36,7 +36,7 @@ h2 {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px 300px;
+    grid-template-rows: 150px 250px;
 }
 .income {
     grid-column: 1/2;
@@ -58,6 +58,7 @@ h2 {
     margin: 2rem;
     height: 30vh;
     padding: 1rem;
+
 }
 .income_tot, .costs_tot {
     padding: 0 0 3rem 0;
@@ -78,4 +79,13 @@ h2 {
     display: flex;
     margin: 3rem 0 0 0;
     font-size: 20px;
+}
+
+@media screen and (max-width: 452px) {
+    .result {
+        margin: 0;
+    }
+    .input-1, .input-2 {
+        margin: 0;
+    }
 }
